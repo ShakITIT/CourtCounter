@@ -27,7 +27,6 @@ int scoreTeamA = 0;
     public void kakhow(View v){
         scoreTeamA = scoreTeamA + 3;
         displayForTeamA(scoreTeamA);
-
     }
 
     public void YackYack(View v){
