@@ -5,6 +5,8 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.TextView;
 
+import java.util.Set;
+
 public class MainActivity extends AppCompatActivity {
 int scoreTeamA = 0;
 int scoreTeamB = 0;
@@ -70,6 +72,15 @@ int scoreTeamB = 0;
          */
         public void schew2(View v){
             scoreTeamB = scoreTeamB + 1;
+            displayForTeamB(scoreTeamB);
+        }
+    /**
+     * Resets the score to 0 for both teams.
+     */
+        public void rewind (View v){
+            scoreTeamA = 0;
+            scoreTeamB = 0;
+            displayForTeamA(scoreTeamA);
             displayForTeamB(scoreTeamB);
         }
     }
