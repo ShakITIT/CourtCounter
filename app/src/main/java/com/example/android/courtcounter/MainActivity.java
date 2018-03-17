@@ -33,14 +33,14 @@ int scoreTeamB = 0;
     /**
      * Increase the given score for Team A by 2 points.
      */
-    public void YackYack(View v){
+    public void yackyack(View v){
         scoreTeamA = scoreTeamA + 2;
         displayForTeamA(scoreTeamA);
     }
     /**
      * Increase the given score for Team A by 1 points.
      */
-    public void Schew(View v){
+    public void schew(View v){
         scoreTeamA = scoreTeamA + 1;
         displayForTeamA(scoreTeamA);
     }
@@ -56,21 +56,21 @@ int scoreTeamB = 0;
          */
         public void kakhow2(View v){
             scoreTeamB = scoreTeamB + 3;
-            displayForTeamA(scoreTeamB);
+            displayForTeamB(scoreTeamB);
         }
         /**
          * Increase the given score for Team b by 2 points.
          */
-        public void YackYack2(View v){
+        public void yackyack2(View v){
             scoreTeamB = scoreTeamB + 2;
-            displayForTeamA(scoreTeamB);
+            displayForTeamB(scoreTeamB);
         }
         /**
          * Increase the given score for Team b by 1 points.
          */
-        public void Schew2(View v){
+        public void schew2(View v){
             scoreTeamB = scoreTeamB + 1;
-            displayForTeamA(scoreTeamB);
+            displayForTeamB(scoreTeamB);
         }
     }
 

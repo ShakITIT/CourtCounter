@@ -37,14 +37,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:onClick="YackYack"
+            android:onClick="yackyack"
             android:text="+2 Points" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:onClick="Schew"
+            android:onClick="schew"
             android:text="Free throw" />
 
     </LinearLayout>
@@ -81,14 +81,14 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:onClick="YackYack2"
+            android:onClick="yackyack2"
             android:text="+2 Points" />
 
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
-            android:onClick="Schew2"
+            android:onClick="schew2"
             android:text="Free throw" />
 
     </LinearLayout>
